@@ -1,0 +1,140 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: "Roboto", "Open Sans", sans-serif;
+    height: 100%;
+    position: absolute;
+    width: 100%;
+}
+
+/* Clear */
+.page-header h1,
+.page-header .h1,
+.page-header h2,
+.page-header .h2,
+.page-header h3,
+.page-header .h3 {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 1.3em;
+}
+
+.page-header {
+    padding-bottom: 0;
+    margin: 18px 0;
+    border-bottom: none;
+}
+
+.form-group {
+    margin-bottom: 0;
+}
+
+.bootstrap-switch span:before {
+    content: "";
+}
+
+.panel>.panel-body+.table, 
+.panel>.panel-body+.table-responsive, 
+.panel>.table+.panel-body, 
+.panel>.table-responsive+.panel-body {
+    border-top: none;
+}
+
+.panel {
+    position: relative;
+}
+
+.panel-heading {
+    padding: 6px;
+}
+
+.input-sm, .input-group-sm>.form-control, 
+.input-group-sm>.input-group-addon, 
+.input-group-sm>.input-group-btn>.btn {
+    border-radius: 0px;
+}
+
+/* DataTables */
+table.dataTable tbody>tr.selected, table.dataTable tbody>tr>.selected {
+    background-color: #6c9;
+}
+
+div.dataTables_wrapper div.dataTables_info,
+div.dataTables_wrapper div.dataTables_paginate,
+div.dataTables_wrapper div.dataTables_length,
+div.dataTables_wrapper div.dt-buttons {
+    padding: 4px 12px;
+    margin: 0;
+}
+
+div.dataTables_length select.form-control.input-sm {
+    margin-top: 2px;
+}
+div.dataTables_scrollBody {
+    border: #e0e0e0 1px solid;
+}
+
+.table>tbody>tr>th,
+.table>tbody>tr>td {
+    border-top: none;
+    border-bottom: 1px solid #ddd;
+}
+
+.table>thead>tr>th {
+    color: #f1f1f1;
+    background: #1976D2;
+    border-right: 1px solid #1976D2;
+    border-bottom: 0px;
+    font-weight: 100;
+    -webkit-box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 2px 5px 0px #9E9E9E;
+}
+ul.dt-button-collection.dropdown-menu {
+    padding: 0;
+}
+
+/* ODW Form */
+.panel > .overlay > div > * {
+    color: aliceblue;
+    margin: 12px;
+    color: #ffffff;
+    text-shadow: #000000 0px 0px 4px;
+}
+
+/* advbuttons.css */
+.ui-group-buttons .or:before {
+    content: 'ou';
+}
+
+/* Buttons */
+.btn {
+    margin-top: 10px;
+}
+
+/* Text */
+.has-error {
+    color : #ff6666;
+}
+
+/* Awesomplete */
+.awesomplete > ul > li[aria-selected="true"] {
+    background: #6699cc;
+    color: white;
+}
+
+.awesomplete mark {
+    background: #EEE;
+}
+
+.awesomplete li:hover mark {
+    background: #EEE;
+}
+
+.awesomplete li[aria-selected="true"] mark {
+    background: hsl(200, 40%, 80%);
+    color: inherit;
+}

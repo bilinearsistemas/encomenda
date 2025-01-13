@@ -1,0 +1,110 @@
+/* grid layouts */
+.grid-property {
+    padding: 1.2em 0;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    color: #555;
+    margin: 5px 0;
+}
+.grid-section {
+    margin-top : 10px;
+}
+.grid-section label {
+    margin: 10px 0;
+    font-weight: 600;
+    color: #555;
+}
+.bg-primary {
+    background-color: rgba(102, 153, 204, 0.2);
+}
+.bg-success {
+    background-color: rgba(102, 204, 153, 0.17);
+}
+.bg-warning {
+    background-color: rgba(240, 173, 78, 0.2);
+}
+.bg-danger {
+    background-color: rgba(255, 102, 102, 0.15);
+}
+/* grid-stack */
+.grid-stack-item-content {
+    opacity: .8;
+    background-color: #6699cc;
+    color: #ffffff;
+    text-align: center;
+    font-size: 17px;
+    border-radius: 5px;
+    -webkit-transition: background-color 100ms linear;
+    -ms-transition: background-color 100ms linear;
+    transition: background-color 100ms linear;
+}
+.grid-stack-item-content .fa {
+    font-size: 19px;
+    top: 0;
+    left: 0;
+    position: absolute;
+    color: #ffffff;
+}
+
+.grid-stack-item.ui-draggable.ui-resizable.ui-draggable-dragging  .ui-draggable-handle{
+    background-color: #ad7;
+}
+
+
+.grid-stack-item  .grid-stack-item-content:hover {
+    background-color: #6699cc;
+    opacity: 1;
+}
+.grid-stack-item-content .grid-stack-item-delete {
+    font-size: 0;
+    position: absolute;
+    right: 0px;
+}
+.grid-stack-item-content:hover .grid-stack-item-delete {
+    font-size: 17px;
+}
+.grid-stack-item-content:hover .grid-stack-item-open {
+    /* font-size: 20px; */
+}
+
+/* Clickable */
+.clickable:hover::before {
+    background: #6699cc;
+    color: #fff;     
+}
+.clickable::before {
+    border-radius: 100%;
+    font-size: 1em;
+    transition: 0.2s;
+    padding: 4px;
+}
+
+.grid-stack-item-content a.open {top: 5px;right: 62px;position: absolute;}
+.grid-stack-item-content a.delete {position: absolute;top: 8px;right: 33px;}
+.grid-stack-item-content i.ti-settings {top: 8px;left: 4px;}
+.grid-stack-item-content i.ti-new-window {font-size: 18px;}
+.grid-stack-item-content i.ti-close {
+    font-size: 16px;
+}
+.grid-stack-item-content h3 {
+    color: #ffffff;
+    font-size: 16px;
+    position: relative;
+    display: block;
+    float: left;
+    top: 66px;
+    padding: 0 6px;
+    margin: 0 0;
+    width: 100%;
+    text-align: center;
+}
+#favoritos {
+    border: solid 1px #BDBDBD;
+    background: #fff;
+    padding: 22px 15px;
+    border-radius: 5px;
+    box-shadow: 2px 3px 20px -3px;
+}
+body {
+	background: #EEEEEE;
+}
