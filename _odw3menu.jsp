@@ -5,14 +5,14 @@
 <html lang="pt-BR">
     <!--- ****************  VARIAVEIS DE VERSÃO E PRODUTO ******************* -->
     <% 
-        String produto = "Encomendas"; 
+        String produto = "Encomenda"; 
         String versaoProduto = "1.1.0";
     %>
 
 <head>
     <meta charset="UTF-8">
     <title>
-        <%= produto %> - Linear
+        <%= produto %>s - Linear
     </title>
     <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">    
 
